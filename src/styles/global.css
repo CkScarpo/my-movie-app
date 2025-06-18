@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #009739;
+  --secondary-color: #007a63;
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --font-size-base: 16px;
+  --font-family: "Roboto", sans-serif;
+}
+
+body.dark {
+  --background-color: #121212;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: var(--font-size-base);
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+}
