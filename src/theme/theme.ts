@@ -10,7 +10,7 @@ export const lightThemeDefaults = {
   palette: {
     primary: "#009739",
     secondary: "#007A63",
-    background: "#ffffff",
+    background: "#FEFEFE",
     text: "#000000",
   },
 };

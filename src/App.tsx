@@ -1,4 +1,4 @@
-import React from "react";
+import { useMemo } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider } from "@mui/material/styles";
@@ -9,10 +9,7 @@ import Layout from "./components/Layout";
 
 const App = () => {
   const { mode, fontScale } = useThemeStore();
-  const theme = React.useMemo(
-    () => getTheme(mode, fontScale),
-    [mode, fontScale]
-  );
+  const theme = useMemo(() => getTheme(mode, fontScale), [mode, fontScale]);
 
   return (
     <ThemeProvider theme={theme}>
