@@ -58,13 +58,13 @@ npm run test -- --coverage   # Gera relatório de cobertura
 
 📁 Executando Localmente
 bash
-git clone https://github.com/CkScarpo/my-movie-app.git
+git [clone](https://github.com/CkScarpo/my-movie-app.git)
 cd my-movie-app
 npm install
 🔑 Crie um arquivo .env com sua API Key da TMDB:
 env
 VITE_TMDB_API_KEY=sua_chave_aqui
-Obtenha uma chave gratuita em: https://www.themoviedb.org/settings/api
+Obtenha uma chave gratuita em: [TMDB](https://www.themoviedb.org/settings/api)
 
 ▶️ Inicie o projeto:
 bash
@@ -74,7 +74,7 @@ Acesse em: http://localhost:5173
 🔗 Deploy
 Aplicação disponível em produção via Vercel:
 
-🔗 https://my-movie-app-nu.vercel.app/
+🔗 [Movie TMDB](https://my-movie-app-nu.vercel.app/)
 
 📂 Estrutura do Projeto
 src/
@@ -99,7 +99,7 @@ Documentação oficial: https://developer.themoviedb.org/reference/intro/getting
 👨‍💻 Autor
 Desenvolvido por Luiz Eduardo Silva.
 
-🔗 LinkedIn – Luiz Eduardo Silva
+🔗 [LinkedIn – Luiz Eduardo Silva](https://www.linkedin.com/in/luiz-eduardo-silva-ti/)
 
 Caso tenha dúvidas ou sugestões, sinta-se à vontade para abrir uma issue ou pull request!
 ```
